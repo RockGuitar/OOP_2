@@ -15,6 +15,7 @@ public class ServiceStation implements TransportService{
         for (int i = 0; i < car.getWheelsCount(); i++) {
             updateTyre();
         }
+        checkEngine();
     }
     public void check(Truck truck){
             System.out.println("Обслуживаем " + truck.getModelName());
